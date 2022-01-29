@@ -1,13 +1,9 @@
 import random
-names = ["south africa","new zealand",
-"sri lanka","west indies"]
+names = ["dhanno","chirag","lohiya","bong","chintu","gaurav","moyonk","ask","akash"]
 x = random.choice(names)
 
 ans = []
 for i in range(len(x)):
-  if(i==" "): 
-    ans.append(" ")
-  else:
     ans.append("_")
 print(*ans)
 print(" ")
